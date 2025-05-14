@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/TriLib/TriLibSamples/LoadModelFromFilePicker/LoadModelFromFilePicker.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
