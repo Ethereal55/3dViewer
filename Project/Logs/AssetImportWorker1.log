@@ -1,29 +1,29 @@
 Using pre-set license
 Built from '6000.0/staging' branch; Version is '6000.0.40f1 (157d81624ddf) revision 1408385'; Using compiler version '193933523'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 32712 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16304 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\Unity\6000.0.40f1\Editor\Unity.exe
+D:\unityEditor\6000.0.40f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker1
 -projectPath
-D:/Unity/Projects/TRPP_Mobile
+D:/coop-project/trpp/3dViewer/Project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54617
+55543
 -job-worker-count
 5
 -background-job-worker-count
 8
 -gc-helper-count
 1
-Successfully changed project path to: D:/Unity/Projects/TRPP_Mobile
-D:/Unity/Projects/TRPP_Mobile
+Successfully changed project path to: D:/coop-project/trpp/3dViewer/Project
+D:/coop-project/trpp/3dViewer/Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -59,16 +59,12 @@ D:/Unity/Projects/TRPP_Mobile
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16540]  Target information:
+Player connection [10856]  Target information:
 
-Player connection [16540]  * "[IP] 26.190.145.114 [Port] 0 [Flags] 2 [Guid] 524703932 [EditorId] 524703932 [Version] 1048832 [Id] WindowsEditor(7,Home-ой) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [10856]  * "[IP] 192.168.1.72 [Port] 0 [Flags] 2 [Guid] 358351771 [EditorId] 358351771 [Version] 1048832 [Id] WindowsEditor(7,END-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [16540]  * "[IP] 192.168.0.109 [Port] 0 [Flags] 2 [Guid] 524703932 [EditorId] 524703932 [Version] 1048832 [Id] WindowsEditor(7,Home-ой) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [16540]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 524703932 [EditorId] 524703932 [Version] 1048832 [Id] WindowsEditor(7,Home-ой) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [16540] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [16540] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [10856] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10856] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -80,62 +76,86 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.21 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.82 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.40f1 (157d81624ddf)
-[Subsystems] Discovering subsystems at path D:/Unity/6000.0.40f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity/Projects/TRPP_Mobile/Assets
+[Subsystems] Discovering subsystems at path D:/unityEditor/6000.0.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/coop-project/trpp/3dViewer/Project/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
-    Vendor:   ATI
-    VRAM:     8125 MB
-    Driver:   32.0.13031.3015
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4004 MB
+    Driver:   32.0.15.7628
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Initialize mono
-Mono path[0] = 'D:/Unity/6000.0.40f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/6000.0.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/Unity/6000.0.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
+Mono path[0] = 'D:/unityEditor/6000.0.40f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unityEditor/6000.0.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unityEditor/6000.0.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/6000.0.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: D:/Unity/6000.0.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.002505 seconds.
-- Loaded All Assemblies, in  0.340 seconds
+Register platform support module: D:/unityEditor/6000.0.40f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unityEditor/6000.0.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/unityEditor/6000.0.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/unityEditor/6000.0.40f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.005394 seconds.
+- Loaded All Assemblies, in  0.591 seconds
+Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 223 ms
+CommandWithNoStdoutInvokationFailure: Unable to start ADB server. Please make sure the Android SDK is installed and is properly configured in the Editor. See the Console for more details.
+  at UnityEditor.Android.Command.RunWithShellExecute (System.String command, System.String args, System.String workingdir, System.String errorMsg) [0x0005a] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/Command.cs:148 
+  at UnityEditor.Android.ADB.StartServer () [0x00008] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/ADB.cs:176 
+  at UnityEditor.Android.ADB.Run (System.String[] command, UnityEditor.Android.Command+WaitingForProcessToExit waitingForProcessToExit, System.String errorMsg) [0x0000b] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/ADB.cs:214 
+  at UnityEditor.Android.AndroidDeploymentTargetsExtension.GetKnownTargets (UnityEditor.DeploymentTargets.IDeploymentTargetsMainThreadContext context, UnityEditor.ProgressHandler progressHandler) [0x002a7] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/DeploymentTargets/AndroidDeploymentTargetsExtension.cs:357 
+  at UnityEditor.Android.TargetScanWorker.ScanSync () [0x00049] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/TargetScanWorker.cs:164 
+  at UnityEditor.Android.TargetExtension.OnUsbDevicesChanged (UnityEditor.Hardware.UsbDevice[] usbDevices) [0x00087] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:106 
+  at UnityEditor.Android.TargetExtension.OnLoad () [0x000af] in /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/ExtensionModule.cs:67 
+  at UnityEditor.Modules.ModuleManager.InitializePlatformSupportModules () [0x000ba] in <08b6666d108d4c9796450fb85df4d5b2>:0 
+UnityEngine.DebugLogHandler:Internal_LogException_Injected(Exception, IntPtr)
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Modules.ModuleManager:InitializePlatformSupportModules()
+
+(Filename: /home/bokken/build/output/unity/unity/PlatformDependent/AndroidPlayer/Editor/Managed/Android/Command.cs Line: 148)
+
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.516 seconds
-Domain Reload Profiling: 855ms
-	BeginReloadAssembly (133ms)
+- Finished resetting the current domain, in  5.975 seconds
+Domain Reload Profiling: 6566ms
+	BeginReloadAssembly (205ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (128ms)
-		LoadAssemblies (134ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (205ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (125ms)
-			TypeCache.Refresh (124ms)
-				TypeCache.ScanAssembly (113ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (236ms)
+				TypeCache.ScanAssembly (220ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (516ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (5976ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (481ms)
+		SetupLoadedEditorAssemblies (5899ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (295ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (41ms)
-			ProcessInitializeOnLoadAttributes (95ms)
-			ProcessInitializeOnLoadMethodAttributes (48ms)
+			InitializePlatformSupportModulesInManaged (5502ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (84ms)
+			ProcessInitializeOnLoadAttributes (192ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -144,8 +164,11 @@ Domain Reload Profiling: 855ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-- Loaded All Assemblies, in  2.508 seconds
+- Loaded All Assemblies, in  2.394 seconds
 Failed to load build profile from Library/BuildProfiles/PlatformProfile.4e3c793746204150860bf175a9a41a05.asset.
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -191,7 +214,7 @@ UnityEditor.Build.Profile.BuildProfileContext:CreateOrLoad ()
 UnityEditor.Build.Profile.BuildProfileContext:get_instance ()
 UnityEditor.Build.Profile.BuildProfileContext:GetActiveOrClassicBuildProfile (UnityEditor.BuildTarget,UnityEditor.StandaloneBuildSubtarget,string)
 
-Refreshing native plugins compatible for Editor in 2.39 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.62 ms, found 4 plugins.
 BuildProfileContext singleton already exists.
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -201,46 +224,116 @@ UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
 UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
 
+Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.780 seconds
-Domain Reload Profiling: 3287ms
-	BeginReloadAssembly (1996ms)
+- Finished resetting the current domain, in  1.514 seconds
+Domain Reload Profiling: 3904ms
+	BeginReloadAssembly (1168ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (1832ms)
+		DisableScriptedObjects (708ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (440ms)
-		LoadAssemblies (322ms)
+		CreateAndSetChildDomain (99ms)
+	RebuildCommonClasses (86ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (1018ms)
+		LoadAssemblies (839ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (227ms)
-			TypeCache.Refresh (178ms)
-				TypeCache.ScanAssembly (161ms)
-			BuildScriptInfoCaches (37ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (780ms)
+		AnalyzeDomain (467ms)
+			TypeCache.Refresh (357ms)
+				TypeCache.ScanAssembly (319ms)
+			BuildScriptInfoCaches (85ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1514ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (589ms)
+		SetupLoadedEditorAssemblies (1187ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (101ms)
-			ProcessInitializeOnLoadAttributes (306ms)
-			ProcessInitializeOnLoadMethodAttributes (168ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (164ms)
+			ProcessInitializeOnLoadAttributes (569ms)
+			ProcessInitializeOnLoadMethodAttributes (417ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 2.38 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.77 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 360 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 7601 unused Assets / (11.4 MB). Loaded Objects now: 6769.
-Memory consumption went from 182.8 MB to 171.4 MB.
-Total: 11.081800 ms (FindLiveObjects: 0.716900 ms CreateObjectMapping: 1.154000 ms MarkObjects: 4.617200 ms  DeleteObjects: 4.593000 ms)
+Unloading 424 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7691 unused Assets / (9.4 MB). Loaded Objects now: 6836.
+Memory consumption went from 194.3 MB to 184.8 MB.
+Total: 27.534800 ms (FindLiveObjects: 1.737500 ms CreateObjectMapping: 3.894400 ms MarkObjects: 10.872100 ms  DeleteObjects: 11.025900 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 143910.785204 seconds.
+  path: Assets/InputSystem_Actions.inputactions
+  artifactKey: Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem_Actions.inputactions using Guid(052faaac586de48259a63d0c4782560b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e3f70f0364ded6a0e35bba7f5564b43') in 0.0650156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Readme.asset
+  artifactKey: Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Readme.asset using Guid(8105016687592461f977c054a80ce2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7564957e633b305f4e69560a9de8e20a') in 0.0016066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.078150 seconds.
+  path: Assets/icons/eye.png
+  artifactKey: Guid(a6cef15aa4449444c8245325e9f0f163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icons/eye.png using Guid(a6cef15aa4449444c8245325e9f0f163) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '668deff46c2ef13c30627f6b5bcf56ac') in 0.1377352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/icons/scalePressed.png
+  artifactKey: Guid(cea60afb901ce774eb92ef49d52a19a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icons/scalePressed.png using Guid(cea60afb901ce774eb92ef49d52a19a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff66cea14facf4398a41383d2cf27365') in 0.0342671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/icons/folder_icon.png
+  artifactKey: Guid(351237906df69504f89878c2f0ca0dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icons/folder_icon.png using Guid(351237906df69504f89878c2f0ca0dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bb6da89522f2be5944e062db4c93367') in 0.0495428 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/icons/folderPressed.png
+  artifactKey: Guid(c0bdbaddbc206bd4c96d0bf19d10b105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icons/folderPressed.png using Guid(c0bdbaddbc206bd4c96d0bf19d10b105) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a11c90085e205da2bd7646e91fe0ab1d') in 0.0291974 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/icons/light.png
+  artifactKey: Guid(06cbf6ba8d6a4bf469b61d0a2ff31110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icons/light.png using Guid(06cbf6ba8d6a4bf469b61d0a2ff31110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '456bca0f2d7d380a3d56bd64fe1845ed') in 0.0250743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/icons/imagePressed.png
+  artifactKey: Guid(f99d184111510c64fb3daee09a9f55e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icons/imagePressed.png using Guid(f99d184111510c64fb3daee09a9f55e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b9913b9ac202122edcbf3d0844bbf7e9') in 0.0595365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

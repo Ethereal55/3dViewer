@@ -1,0 +1,545 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.40f1 (157d81624ddf) revision 1408385'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ru' Physical Memory: 16304 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unityEditor\6000.0.40f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/coop-project/trpp/3dViewer/Project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+55543
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: D:/coop-project/trpp/3dViewer/Project
+D:/coop-project/trpp/3dViewer/Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3880]  Target information:
+
+Player connection [3880]  * "[IP] 192.168.1.72 [Port] 0 [Flags] 2 [Guid] 1310691865 [EditorId] 1310691865 [Version] 1048832 [Id] WindowsEditor(7,END-PC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [3880] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3880] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 3.24 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.40f1 (157d81624ddf)
+[Subsystems] Discovering subsystems at path D:/unityEditor/6000.0.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/coop-project/trpp/3dViewer/Project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c82)
+    Vendor:   NVIDIA
+    VRAM:     4004 MB
+    Driver:   32.0.15.7628
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Initialize mono
+Mono path[0] = 'D:/unityEditor/6000.0.40f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unityEditor/6000.0.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unityEditor/6000.0.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56740
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unityEditor/6000.0.40f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unityEditor/6000.0.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/unityEditor/6000.0.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/unityEditor/6000.0.40f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.005227 seconds.
+- Loaded All Assemblies, in  0.489 seconds
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 290 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.744 seconds
+Domain Reload Profiling: 1233ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (203ms)
+		LoadAssemblies (163ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (196ms)
+				TypeCache.ScanAssembly (181ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (744ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (689ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (410ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (74ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Shader 'TextMeshPro/Distance Field SSD': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Shader 'TextMeshPro/Distance Field Overlay': fallback shader 'TextMeshPro/Mobile/Distance Field' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+- Loaded All Assemblies, in  1.402 seconds
+Failed to load build profile from Library/BuildProfiles/PlatformProfile.4e3c793746204150860bf175a9a41a05.asset.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Build.Profile.BuildProfileContext> ()
+UnityEditor.Build.Profile.BuildProfileContext:CreateOrLoad ()
+UnityEditor.Build.Profile.BuildProfileContext:get_instance ()
+UnityEditor.Build.Profile.BuildProfileContext:GetActiveOrClassicBuildProfile (UnityEditor.BuildTarget,UnityEditor.StandaloneBuildSubtarget,string)
+
+Failed to load build profile from Library/BuildProfiles/PlatformProfile.b9b35072a6f44c2e863f17467ea3dc13.asset.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Build.Profile.BuildProfileContext> ()
+UnityEditor.Build.Profile.BuildProfileContext:CreateOrLoad ()
+UnityEditor.Build.Profile.BuildProfileContext:get_instance ()
+UnityEditor.Build.Profile.BuildProfileContext:GetActiveOrClassicBuildProfile (UnityEditor.BuildTarget,UnityEditor.StandaloneBuildSubtarget,string)
+
+Failed to load shared profile from Library/BuildProfiles/SharedProfile.asset.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+UnityEngine.ScriptableObject:CreateScriptableObjectInstanceFromType (System.Type,bool)
+UnityEngine.ScriptableObject:CreateInstance (System.Type)
+UnityEngine.ScriptableObject:CreateInstance<UnityEditor.Build.Profile.BuildProfileContext> ()
+UnityEditor.Build.Profile.BuildProfileContext:CreateOrLoad ()
+UnityEditor.Build.Profile.BuildProfileContext:get_instance ()
+UnityEditor.Build.Profile.BuildProfileContext:GetActiveOrClassicBuildProfile (UnityEditor.BuildTarget,UnityEditor.StandaloneBuildSubtarget,string)
+
+Refreshing native plugins compatible for Editor in 2.01 ms, found 4 plugins.
+BuildProfileContext singleton already exists.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.110 seconds
+Domain Reload Profiling: 2510ms
+	BeginReloadAssembly (624ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (344ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (657ms)
+		LoadAssemblies (483ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (343ms)
+			TypeCache.Refresh (263ms)
+				TypeCache.ScanAssembly (238ms)
+			BuildScriptInfoCaches (61ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1110ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (869ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (405ms)
+			ProcessInitializeOnLoadMethodAttributes (326ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 2.97 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 424 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7691 unused Assets / (14.5 MB). Loaded Objects now: 6836.
+Memory consumption went from 194.3 MB to 179.8 MB.
+Total: 17.119800 ms (FindLiveObjects: 1.180800 ms CreateObjectMapping: 0.882800 ms MarkObjects: 6.384400 ms  DeleteObjects: 8.670300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 143930.580130 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(9c53962885c2c4f449125a979d6ad240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae1af5c61b2fd4bcacfc65f55f013a75') in 0.0124586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.944476 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(b7c4e7f97be1f814ba12dd6e678cd360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(b7c4e7f97be1f814ba12dd6e678cd360) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfd94c5ed64a0693350a46f66fde5817') in 0.0006885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.725506 seconds.
+  path: Assets/Scenes/MainScene_additions
+  artifactKey: Guid(b6333c40bfdcb8e4a8eb3fb74484fcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene_additions using Guid(b6333c40bfdcb8e4a8eb3fb74484fcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3b98b48be4951d0184aba6c669aa003') in 0.0006181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.962 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 4 plugins.
+BuildProfileContext singleton already exists.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+
+BuildProfileContext singleton already exists.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.Build.Profile.BuildProfileContext:.ctor ()
+
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Failed to load build profile from Library/BuildProfiles/PlatformProfile.4e3c793746204150860bf175a9a41a05.asset.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+
+Failed to load build profile from Library/BuildProfiles/PlatformProfile.b9b35072a6f44c2e863f17467ea3dc13.asset.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+
+Failed to load build profile from Library/BuildProfiles/PlatformProfile.ad48d16a66894befa4d8181998c3cb09.asset.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+
+Failed to load build profile from Library/BuildProfiles/PlatformProfile.84a3bb9e7420477f885e98145999eb20.asset.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+
+Failed to load shared profile from Library/BuildProfiles/SharedProfile.asset.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+
+Failed to load build profile from Library/BuildProfiles/PlatformProfile.4e3c793746204150860bf175a9a41a05.asset.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+
+Failed to load build profile from Library/BuildProfiles/PlatformProfile.b9b35072a6f44c2e863f17467ea3dc13.asset.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+
+Failed to load build profile from Library/BuildProfiles/PlatformProfile.ad48d16a66894befa4d8181998c3cb09.asset.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+
+Failed to load build profile from Library/BuildProfiles/PlatformProfile.84a3bb9e7420477f885e98145999eb20.asset.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+
+Failed to load shared profile from Library/BuildProfiles/SharedProfile.asset.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Build.Profile.BuildProfileContext:OnEnable ()
+
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.322 seconds
+Domain Reload Profiling: 2285ms
+	BeginReloadAssembly (321ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (76ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (539ms)
+		LoadAssemblies (428ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (240ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (213ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1323ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (985ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (514ms)
+			ProcessInitializeOnLoadMethodAttributes (315ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (47ms)
+Refreshing native plugins compatible for Editor in 3.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 225 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7689 unused Assets / (11.3 MB). Loaded Objects now: 6863.
+Memory consumption went from 172.6 MB to 161.2 MB.
+Total: 23.308100 ms (FindLiveObjects: 1.513500 ms CreateObjectMapping: 1.969000 ms MarkObjects: 9.511400 ms  DeleteObjects: 10.311100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 265.058802 seconds.
+  path: Assets/icons/scalePressed.png
+  artifactKey: Guid(cea60afb901ce774eb92ef49d52a19a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icons/scalePressed.png using Guid(cea60afb901ce774eb92ef49d52a19a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de3915ae969bf59ad94efa6f89c10d73') in 0.1406051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/icons/folder_icon.png
+  artifactKey: Guid(351237906df69504f89878c2f0ca0dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icons/folder_icon.png using Guid(351237906df69504f89878c2f0ca0dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de8253407d9f6a8fa0d9b4447af529e3') in 0.0291174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/icons/Circle.png
+  artifactKey: Guid(8a7053812d670054d9e94a6ef8634025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icons/Circle.png using Guid(8a7053812d670054d9e94a6ef8634025) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e14d64684ace173ef55fbe772f07faf3') in 0.0143216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/icons/movePressed.png
+  artifactKey: Guid(2b1a9d809b569234d89dcddf61a18726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icons/movePressed.png using Guid(2b1a9d809b569234d89dcddf61a18726) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '35cd12411ace6260c33106747dded069') in 0.0156193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/icons/scale.png
+  artifactKey: Guid(0be5aead43600774fb8a3966cc773883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icons/scale.png using Guid(0be5aead43600774fb8a3966cc773883) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec96f726c49e53b01c18a917c861f807') in 0.0168449 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/icons/lightPressed.png
+  artifactKey: Guid(e2bfa9cc185d9714785536958ee60544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icons/lightPressed.png using Guid(e2bfa9cc185d9714785536958ee60544) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1b2b9a6b50a63ff08f1ed0b2e4c2720') in 0.0157758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/icons/eyePressed.png
+  artifactKey: Guid(7db17129eb18bda4888ba10ed0bfea6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/icons/eyePressed.png using Guid(7db17129eb18bda4888ba10ed0bfea6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db832db52d9f1e8aa34bcc38cc68a86b') in 0.0141408 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 188.051561 seconds.
+  path: Assets/TriLib/TriLibSamples/Common/Textures/Arrow.png
+  artifactKey: Guid(c49063318fc35d247bd557c9224b280d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TriLib/TriLibSamples/Common/Textures/Arrow.png using Guid(c49063318fc35d247bd557c9224b280d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '32f0107f13ec43b645b0fc0cbc75a1e0') in 0.0240299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TriLib/TriLibSamples/Common/Textures/helpbutton.png
+  artifactKey: Guid(163def520e58bd54888fe85a58ea7813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TriLib/TriLibSamples/Common/Textures/helpbutton.png using Guid(163def520e58bd54888fe85a58ea7813) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55906266f4dd84ba9d2b9f8571b50dbf') in 0.030427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TriLib/TriLibSamples/Common/Textures/playbutton.png
+  artifactKey: Guid(538ab41c860fe1b49a78a49218e38ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TriLib/TriLibSamples/Common/Textures/playbutton.png using Guid(538ab41c860fe1b49a78a49218e38ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a066405158774cb546f121a5af69c656') in 0.0204386 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/TriLib/TriLibSamples/Common/Textures/roundbutton.png
+  artifactKey: Guid(f472ef91f98b9464993dec27529ddd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TriLib/TriLibSamples/Common/Textures/roundbutton.png using Guid(f472ef91f98b9464993dec27529ddd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1363cb965a4e973a2509c11545313143') in 0.0249263 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TriLib/TriLibSamples/Common/Textures/knob.png
+  artifactKey: Guid(55f5756f24d9d1841b6235690e5bc7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TriLib/TriLibSamples/Common/Textures/knob.png using Guid(55f5756f24d9d1841b6235690e5bc7c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0c0bc5b2739ee82629d0bd79f0a6e0b') in 0.0224958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.806686 seconds.
+  path: Assets/TriLib/TriLibSamples/Common/Textures/roundbuttonborder.png
+  artifactKey: Guid(51c2ac47b1804034aa6b0cf8976c88bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TriLib/TriLibSamples/Common/Textures/roundbuttonborder.png using Guid(51c2ac47b1804034aa6b0cf8976c88bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80fec78a008f0de77d8a20d9fe2fbc67') in 0.0261982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
