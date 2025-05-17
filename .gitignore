@@ -1,5 +1,5 @@
 # Unity .gitignore
-Library/
-Temp/
+/Project/Library/
+/Project/Temp/
 *.csproj
 *.userprefs
