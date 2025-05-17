@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 191441253, guid: d113add047833f74ea60d092f1204bf3, type: 3}
+  m_Name: AssetLoaderOptions
+  m_EditorClassIdentifier: 
+  UseFileScale: 1
+  ScaleFactor: 1
+  SortHierarchyByName: 1
+  ImportVisibility: 1
+  Static: 0
+  AddAssetUnloader: 1
+  ImportMeshes: 1
+  LimitBoneWeights: 1
+  ReadEnabled: 1
+  ReadAndWriteEnabled: 0
+  OptimizeMeshes: 1
+  GenerateColliders: 0
+  ConvexColliders: 0
+  ImportBlendShapes: 1
+  ImportColors: 1
+  IndexFormat: 1
+  LODScreenRelativeTransitionHeightBase: 0.75
+  KeepQuads: 0
+  ImportNormals: 1
+  SmoothingAngle: 60
+  ImportBlendShapeNormals: 0
+  CalculateBlendShapeNormals: 0
+  ImportTangents: 0
+  SwapUVs: 0
+  ImportMaterials: 1
+  MaterialMappers:
+  - {fileID: 0}
+  AddSecondAlphaMaterial: 0
+  ImportTextures: 1
+  Enforce16BitsTextures: 0
+  ScanForAlphaPixels: 1
+  UseAlphaMaterials: 0
+  AlphaMaterialMode: 3
+  DoubleSidedMaterials: 0
+  TextureMapper: {fileID: 0}
+  TextureCompressionQuality: 1
+  GenerateMipmaps: 1
+  FixNormalMaps: 0
+  AnimationType: 0
+  AvatarDefinition: 0
+  Avatar: {fileID: 0}
+  HumanDescription:
+    armStretch: 0.05
+    feetSpacing: 0
+    hasTranslationDof: 0
+    legStretch: 0.05
+    lowerArmTwist: 0.5
+    lowerLegTwist: 0.5
+    upperArmTwist: 0.5
+    upperLegTwist: 0.5
+  RootBoneMapper: {fileID: 0}
+  HumanoidAvatarMapper: {fileID: 0}
+  LipSyncMappers: []
+  SampleBindPose: 0
+  EnforceTPose: 1
+  ResampleAnimations: 0
+  EnforceAnimatorWithLegacyAnimations: 0
+  AutomaticallyPlayLegacyAnimations: 0
+  ResampleFrequency: 4
+  AnimationWrapMode: 2
+  AnimationClipMappers: []
+  ExternalDataMapper: {fileID: 0}
+  ShowLoadingWarnings: 0
+  CloseStreamAutomatically: 1
+  Timeout: 180
+  DestroyOnError: 1
+  EnsureQuaternionContinuity: 1
+  UseMaterialKeywords: 0
+  ForceGCCollectionWhileLoading: 1
+  MergeVertices: 1
+  MarkTexturesNoLongerReadable: 1
+  UseUnityNativeNormalCalculator: 0
+  GCHelperCollectionInterval: 20
+  LoadTexturesAsSRGB: 1
+  UserPropertiesMapper: {fileID: 0}
+  ApplyTexturesOffsetAndScaling: 1
+  UseAutodeskInteractiveMaterials: 0
+  DiscardUnusedTextures: 1
+  PivotPosition: 0
+  ForcePowerOfTwoTextures: 0
+  EnableProfiler: 0
+  UseUnityNativeTextureLoader: 0
+  LoadMaterialsProgressively: 0
+  ImportCameras: 0
+  ImportLights: 0
+  DisableObjectsRenaming: 0
