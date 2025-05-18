@@ -80,6 +80,7 @@
     <Compile Include="Assets\TriLib\TriLibSamples\AssetViewer\Scripts\AssetViewer.cs" />
     <Compile Include="Assets\TriLib\TriLibCore\Scripts\TriLibReaders.cs" />
     <Compile Include="Assets\TriLib\TriLibCore\Scripts\Playables\SimpleAnimationPlayer.cs" />
+    <Compile Include="Assets\Scripts\LightiingHandler\LightColorSlider.cs" />
     <Compile Include="Assets\TriLib\TriLibUniversalRP\Scripts\Mappers\UniversalRPMaterialMapper.cs" />
     <Compile Include="Assets\TriLib\TriLibCore\Scripts\Mappers\ByNameAnimatorOverrideAnimationClipMapper.cs" />
     <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\StandaloneFileBrowserWinRT.cs" />
@@ -91,6 +92,7 @@
     <Compile Include="Assets\TriLib\TriLibCore\Scripts\UriLoadCustomContextData.cs" />
     <Compile Include="Assets\WireframeRenderer\Scripts\WireframeRenderer.cs" />
     <Compile Include="Assets\TriLib\TriLibSamples\Common\Scripts\PasteManager.cs" />
+    <Compile Include="Assets\Scripts\ModelInfoCollector.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\TriLib\TriLibSamples\LoadExtraAnimations\Scripts\LoadExtraAnimationsSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
@@ -105,6 +107,7 @@
     <Compile Include="Assets\TriLib\TriLibSamples\SimpleCustomAssetLoader\SimpleCustomAssetLoader.cs" />
     <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\IStandaloneFileBrowser.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\Scripts\LightiingHandler\LightSwitcher.cs" />
     <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\ItemWithStream.cs" />
     <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\StandaloneFileBrowserWebGL.cs" />
     <Compile Include="Assets\TriLib\TriLibCore\Scripts\TriLibSettings.cs" />
@@ -130,15 +133,17 @@
     <Compile Include="Assets\TriLib\TriLibCore\Scripts\Mappers\ByNameLipSyncMapper.cs" />
     <Compile Include="Assets\TriLib\TriLibCore\Scripts\Mappers\ByNameHumanoidAvatarMapper.cs" />
     <Compile Include="Assets\TriLib\TriLibSamples\SimpleCustomAssetLoader\SimpleCustomLoaderSample.cs" />
-    <Compile Include="Assets\Scripts\WireFrameViewer.cs" />
     <Compile Include="Assets\TriLib\TriLibSamples\Common\Scripts\AssetViewerBase.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TriLib\TriLibHDRP\Scripts\HDRPVirtualMaterial.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\TriLib\TriLibCore\Scripts\Mappers\ZipFileExternalDataMapper.cs" />
     <Compile Include="Assets\TriLib\TriLibCore\Scripts\Mappers\ZipFileTextureMapper.cs" />
+    <Compile Include="Assets\Scripts\WireframeViewer.cs" />
+    <Compile Include="Assets\Scripts\LightiingHandler\LightIntensitySlider.cs" />
     <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\TriLib\Mappers\FilePickerTextureMapper.cs" />
     <Compile Include="Assets\TriLib\TriLibCore\Scripts\AssetLoader.cs" />
+    <Compile Include="Assets\Scripts\LightiingHandler\LightPosSlider.cs" />
     <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\StandaloneFileBrowserMac.cs" />
     <Compile Include="Assets\TriLib\TriLibCore\Scripts\AssetDownloaderBehaviour.cs" />
     <Compile Include="Assets\TriLib\TriLibCore\Scripts\AssetUnloader.cs" />

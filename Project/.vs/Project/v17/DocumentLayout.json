@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BackgroundChanger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\coop-project\\trpp\\3dViewer\\Project\\Assets\\Scripts\\LightiingHandler\\LightSwitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\LightiingHandler\\LightSwitcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\coop-project\\trpp\\3dViewer\\Project\\Assets\\Scripts\\CameraRotateAround.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CameraRotateAround.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,8 +22,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LightSwitcher.cs",
+              "DocumentMoniker": "D:\\coop-project\\trpp\\3dViewer\\Project\\Assets\\Scripts\\LightiingHandler\\LightSwitcher.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\LightiingHandler\\LightSwitcher.cs",
+              "ToolTip": "D:\\coop-project\\trpp\\3dViewer\\Project\\Assets\\Scripts\\LightiingHandler\\LightSwitcher.cs",
+              "RelativeToolTip": "Assets\\Scripts\\LightiingHandler\\LightSwitcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T18:05:55.403Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +45,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\BackgroundChanger.cs",
               "ToolTip": "D:\\coop-project\\trpp\\3dViewer\\Project\\Assets\\Scripts\\BackgroundChanger.cs",
               "RelativeToolTip": "Assets\\Scripts\\BackgroundChanger.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-18T15:40:52.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CameraRotateAround.cs",
               "DocumentMoniker": "D:\\coop-project\\trpp\\3dViewer\\Project\\Assets\\Scripts\\CameraRotateAround.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraRotateAround.cs",
@@ -43,8 +60,7 @@
               "RelativeToolTip": "Assets\\Scripts\\CameraRotateAround.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-18T15:05:45.63Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-18T15:05:45.63Z"
             }
           ]
         }
