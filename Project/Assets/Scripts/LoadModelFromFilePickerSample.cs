@@ -7,7 +7,9 @@ namespace TriLibCore.Samples
 {
     public class LoadModelFromFilePickerSample : MonoBehaviour
     {
+        public AccurateMeshCounter AccurateMeshCounter;
         public WireframeToggler WireframeToggler;
+        //public GlobalSceneInfo GlobalSceneInfo;
 
         private GameObject _loadedGameObject;
 
@@ -59,6 +61,7 @@ namespace TriLibCore.Samples
             if (assetLoaderContext.RootGameObject != null)
             {
                 Debug.Log("Model fully loaded.");
+                AccurateMeshCounter.CalculateVerticles();
             }
             else
             {
@@ -74,6 +77,7 @@ namespace TriLibCore.Samples
         private void OnLoad(AssetLoaderContext assetLoaderContext)
         {
             WireframeToggler.DisableWireframe();
+            //GlobalSceneInfo.Refresh();
 
             if (_loadedGameObject != null)
             {
