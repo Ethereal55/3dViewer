@@ -21,7 +21,13 @@ EditorUserSettings:
       value: 5b500c575d515b59590d097413710a444616497e2a7d7f65287f4432e1e4303d
       flags: 0
     RecentlyUsedSceneGuid-5:
+      value: 0603500456005e5a595b587545705e4441154072752a27332f781e64b6b4373d
+      flags: 0
+    RecentlyUsedSceneGuid-6:
       value: 0106575200020f025a0c0973167b0e4414164978282c70357b7e4530e6b36268
+      flags: 0
+    lightmappingBakingProfile:
+      value: 51
       flags: 0
     vcSharedLogLevel:
       value: 0d5e400f0650

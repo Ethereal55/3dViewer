@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
+    <Compile Include="Assets\Scripts\BackgroundChanger.cs" />
     <Compile Include="Assets\TriLib\TriLibSamples\AssetViewer\Scripts\RuntimeProcessUtils.cs" />
     <Compile Include="Assets\TriLib\TriLibCore\Scripts\RuntimeInitialization.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
@@ -94,6 +95,7 @@
     <Compile Include="Assets\TriLib\TriLibSamples\LoadExtraAnimations\Scripts\LoadExtraAnimationsSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\TriLib\TriLibCore\Scripts\TextureLoader.cs" />
+    <Compile Include="Assets\Scripts\CameraRotateAround.cs" />
     <Compile Include="Assets\TriLib\TriLibStandaloneFileBrowser\StandaloneFileBrowser\StandaloneFileBrowserIOS.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\TriLib\TriLibCore\Scripts\GCHelper.cs" />
